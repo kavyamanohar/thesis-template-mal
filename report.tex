@@ -3,7 +3,7 @@
 \usepackage{malayalamreport}
 
 \title{മലയാളം റിപ്പോർട്ട്}
-\author{കാവ്യ}
+\author{ഗവേഷക}
 \date{\today}
 
 
@@ -11,19 +11,41 @@
 \pagenumbering{roman}
 \maketitle
 
+\input{./contents/certificate.tex}
+\newpage
 
-
+\input{./contents/acknowledgement.tex}
 
 \tableofcontents
 
-%\pagenumbering{arabic}
+\pagenumbering{arabic}
+
 \chapter{ആമുഖം}
 ലാടെൿ ഉപയോഗിച്ച് തയ്യാറാക്കുന്ന മലയാളം തീസിസ് റിപ്പോർട്ടിന് ഒരു ആമുഖം.
 
-\section{}
+\chapter{യൂണിക്കോഡും മലയാളവും}
+ലാടെൿ ഉപയോഗിച്ച് തയ്യാറാക്കുന്ന മലയാളം തീസിസ് റിപ്പോർട്ടിലെ അടുത്ത അദ്ധ്യായം.
+
+\section{ഒന്നാം സെക്ഷൻ}
 
 ഇത് ഒന്നാമത്തെ സെൿഷൻ.
 
+\subsection{ഒന്നാം സബ്സെക്ഷൻ}
+ഇത് സബ് സെക്ഷൻ
 
+
+\chapter{ചിത്രങ്ങൾ ചേർക്കാം}
+ലാടെൿ ഉപയോഗിച്ച് തയ്യാറാക്കുന്ന മലയാളം തീസിസ് റിപ്പോർട്ടിലെ ചിത്രങ്ങളുള്ള അദ്ധ്യായം
+
+\section{ലോഗോ}
+
+ഇത് ഒന്നാമത്തെ സെൿഷൻ. ഇവിടെ നിങ്ങൾക്ക് ചിത്രം \ref{logo} കാണാം.
+
+\begin{figure}
+\center
+\includegraphics[width=0.3\textwidth]{./contents/logo.png}
+\caption{കേരളസർവ്വകലാശാലയുടെ ലോഗോ}
+\label{logo}
+\end{figure}
 
 \end{document}
