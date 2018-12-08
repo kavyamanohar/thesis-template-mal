@@ -1,16 +1,22 @@
-\documentclass[11pt]{report}
+\documentclass[12pt]{report}
 
 \usepackage{malayalamreport}
-
 
 \title{മലയാളം റിപ്പോർട്ട്}
 \author{ഗവേഷക}
 \date{\today}
 
+ 
+\pagestyle{fancy}
+\rhead{കേരള സർവ്വകലാശാല}
+\lhead{ഗവേഷണപ്രബന്ധം}
+\fancyfoot[CO,CE]{\leftmark}
+
+
 
 \begin{document}
 
-\pagenumbering{roman}
+%\pagenumbering{roman}
 
 
 \input{./contents/cover.tex}
@@ -23,7 +29,7 @@
 
 \tableofcontents
 
-\pagenumbering{arabic}
+%\pagenumbering{arabic}
 
 \input{./contents/chapter1.tex}
 \input{./contents/chapter2.tex}

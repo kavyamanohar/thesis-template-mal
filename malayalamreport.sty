@@ -13,9 +13,12 @@
 \righthyphenmin=3
 
 
-\addto\captionsmalayalam{%
-  \renewcommand{\bibname}{ഗ്രന്ഥസൂചി}%
-  }
+\addto\captionsmalayalam{
+  \renewcommand{\bibname}{ഗ്രന്ഥസൂചി}
+  } %Define References as ഗ്രന്ഥസൂചി when using polyglossia
+
+
+\usepackage[nottoc]{tocbibind} % To include bibliography in the table of contents
 
 \usepackage[a4paper]{geometry}
 
@@ -35,5 +38,6 @@
     citecolor={black}, urlcolor={black}
 }
 
+\usepackage{fancyhdr}
 
 %\usepackage{tables}
