@@ -4,6 +4,7 @@ build:
   stage: build
   before_script:
     - apt-get update -y
+    - export DEBIAN_FRONTEND=noninteractive
     - apt-get install -y texlive-xetex texlive-latex-extra texlive-lang-other fonts-smc-manjari fonts-sil-gentium fonts-inconsolata
   script:
     - make
