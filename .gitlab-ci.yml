@@ -1,0 +1,12 @@
+image: "ubuntu:latest"
+
+build:
+  stage: build
+  before_script:
+    - apt-get update -y
+    - apt-get install -y texlive-xetex texlive-latex-extra texlive-lang-other fonts-smc-manjari fonts-sil-gentium fonts-inconsolata
+  script:
+    - make
+  artifacts:
+    paths:
+    - report.pdf

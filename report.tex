@@ -1,4 +1,4 @@
-\documentclass[12pt]{report}
+\documentclass[11pt]{report}
 
 \usepackage{malayalamreport}
 
@@ -10,18 +10,13 @@
 \pagestyle{fancy}
 \rhead{കേരള സർവ്വകലാശാല}
 \lhead{ഗവേഷണപ്രബന്ധം}
-\fancyfoot[CO,CE]{\leftmark}
+\fancyfoot[CO,CE]{\leftmark} % for chapter number and name
 
 
 
 \begin{document}
 
-%\pagenumbering{roman}
-
-
 \input{./contents/cover.tex}
-\newpage
-
 
 \input{./contents/certificate.tex}
 
@@ -29,7 +24,7 @@
 
 \tableofcontents
 
-%\pagenumbering{arabic}
+
 
 \input{./contents/chapter1.tex}
 \input{./contents/chapter2.tex}
@@ -37,7 +32,7 @@
 \input{./contents/chapter4.tex}
 
 
-\begin{thebibliography}{99}
+\begin{thebibliography}{99} 
 
 \bibitem{bailey}
   ബെഞ്ചമിൻ ബെയ്‌ലി,
